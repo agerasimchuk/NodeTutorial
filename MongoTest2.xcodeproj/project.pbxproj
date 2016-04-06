@@ -15,6 +15,7 @@
 		156C4F631CA0617700928CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156C4F611CA0617700928CA3 /* LaunchScreen.storyboard */; };
 		156C4F6E1CA0617700928CA3 /* MongoTest2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156C4F6D1CA0617700928CA3 /* MongoTest2Tests.swift */; };
 		156C4F791CA0617700928CA3 /* MongoTest2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156C4F781CA0617700928CA3 /* MongoTest2UITests.swift */; };
+		159C00F51CA4ADD800218755 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159C00F41CA4ADD800218755 /* menuViewController.swift */; };
 		8517E8FA6645835252A4BA97 /* Pods_MongoTest2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D6DC84FFB3B68F20957C9B8 /* Pods_MongoTest2.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		156C4F741CA0617700928CA3 /* MongoTest2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MongoTest2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		156C4F781CA0617700928CA3 /* MongoTest2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MongoTest2UITests.swift; sourceTree = "<group>"; };
 		156C4F7A1CA0617700928CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		159C00F41CA4ADD800218755 /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
 		7D6DC84FFB3B68F20957C9B8 /* Pods_MongoTest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MongoTest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BF39F400A5421161F88D4B /* Pods-MongoTest2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MongoTest2.release.xcconfig"; path = "Pods/Target Support Files/Pods-MongoTest2/Pods-MongoTest2.release.xcconfig"; sourceTree = "<group>"; };
 		F2DA1D997B5AD957A39C3E3A /* Pods-MongoTest2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MongoTest2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MongoTest2/Pods-MongoTest2.debug.xcconfig"; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				156C4F611CA0617700928CA3 /* LaunchScreen.storyboard */,
 				156C4F641CA0617700928CA3 /* Info.plist */,
 				156C4F5C1CA0617700928CA3 /* MongoTest2.xcdatamodeld */,
+				159C00F41CA4ADD800218755 /* menuViewController.swift */,
 			);
 			path = MongoTest2;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				156C4F5E1CA0617700928CA3 /* MongoTest2.xcdatamodeld in Sources */,
 				156C4F581CA0617700928CA3 /* ViewController.swift in Sources */,
 				156C4F561CA0617700928CA3 /* AppDelegate.swift in Sources */,
+				159C00F51CA4ADD800218755 /* menuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
